@@ -1,6 +1,12 @@
-# works for Pi default (debian) and ubuntu distros
+# works for Pi default (debian) 
 
+# ENV
+sudo apt-get install neovim
 
 # WEB SERVER
-sudo apt install apache2
+sudo apt install nginx
+sudo systemctl stop nginx
+sudo /usr/sbin/nginx
+
+
 
